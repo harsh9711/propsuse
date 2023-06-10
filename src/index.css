@@ -1,0 +1,45 @@
+/* *{
+  background-color:yellowgreen;
+  text-align: center;
+} */
+*{
+  box-sizing:border-box;
+  padding:8;
+ 
+  margin:0;
+
+  background-color: #ad2bdd;
+}
+.heading_style{
+  padding:90px 0;
+  text-align:center;
+  font-family:"Raleway",sans-serif;
+  text-transform:uppercase;
+  font-size: 13px;
+  letter-spacing:2px;
+  font-weight: 500;
+  color:#868686;
+  background-color: #fff;
+  font-size: 1.5rem;
+  margin-bottom:30px;
+}
+.cards{
+  margin: 10em;
+  display:inline-block;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  
+}
+.card{
+
+  margin:6%;
+  transition:all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: #fff;
+  width:25%;
+}
+.card:hover{
+  box-shadow: 0px 30px 18px -8px rgba(0,0,0,0.1);
+  transform:scale(1.05,1.05);
+}
+
